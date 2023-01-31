@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+    <style>
+        body {
+            background-color: rgb(149, 185, 196);
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video src="midia/video-gato.mp4" width="600" controls loop poster="imagens/gato-thumb.png"></video>
+
+     <h2>Opção 2(provável) <span style="color: red;">MELHOR</span></h2>
+
+     <video controls loop width="900" poster="imagens/gato-thumb.png">
+        <source src="midia/video-gato.mp4" type="video/mp4">
+        <source src="midia/video-gato.m4v" type="video/mp4">
+
+
+
+     </video>
+
+     <h1>Inserção de vídeos do YouTube</h1>
+     <h2><i><u>Meow types</u></i></h2>
+     <iframe loopautoplay width="860" height="315" src="https://www.youtube.com/embed/GBiWYNP-uQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    
+
+</body>
+</html
